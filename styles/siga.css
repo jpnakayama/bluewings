@@ -1,0 +1,19 @@
+.siga {
+  padding: 2em 3em;
+  background: var(--fundo-cinza);
+  text-align: center;
+  margin-top: 2em
+}
+
+.siga__titulo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.siga__texto {
+  margin: 1em 0 0.5em 0
+}
+
+.siga__link {
+  padding: 0 0.5em
+}

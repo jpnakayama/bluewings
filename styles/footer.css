@@ -1,0 +1,17 @@
+footer {
+  padding: 1em;
+  text-align: center
+}
+
+.rodape__titulo {
+  font-family: var(--bleed-blue);
+  font-weight: 600;
+  color: var(--azul);
+  margin-bottom: 0.5em
+}
+
+.rodape__texto {
+  font-size: 8px;
+  font-weight: 300;
+  color: var(--cinza)
+}

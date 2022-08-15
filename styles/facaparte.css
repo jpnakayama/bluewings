@@ -1,0 +1,41 @@
+.facaparte {
+  display: flex;
+  align-items: center;
+  padding: 1em 2em 2em 2em;
+}
+
+.facaparte__titulo {
+  padding-top: 2em;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--azul)  
+}
+
+.facaparte__descricao {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--cinza);
+  width: 50vw;
+  text-align: center;
+  padding-right: 2em
+}
+
+.facaparte__descricao-texto {
+  padding-bottom: 2em
+}
+
+.facaparte__descricao-link {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0.8em;
+  border-radius: 5px;
+  color: var(--azul);
+  background-color: var(--amarelo);
+  text-decoration: none
+}
+
+.facaparte__imagem {
+  width: 50%;
+  border-radius: 10px
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmópolis Blue Wings</title>
+  <link rel="icon" type="image/svg" href="img/logo.svg">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabecalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Nossa História</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Treinos</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Nossas Equipes</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Contato</a>
+        </li>
+      </ul>
+      <p class="hashtag">#BleedBlue</p>
+      <img src="img/logo.svg" alt="logo cosmópolis blue wings" class="logo">
+    </div>
+  </header>
+
+  <main>
+    <section class="about">
+      <div class="about__descricao">
+        <h2 class="about__descricao-titulo">Sobre nós</h2>
+        <p class="about__descricao-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, autem
+          nulla! Unde, dignissimos sint
+          asperiores tempora repellat dolorem, quae deleniti dicta nulla eveniet aperiam aliquid dolores ea ratione modi
+          quaerat.</p>
+      </div>
+    </section>
+    <h2 class="facaparte__titulo">Faça parte do BLUE WINGS</h2>
+    <section class="facaparte">
+      <div class="facaparte__descricao">
+        <p class="facaparte__descricao-texto">Temos turmas de treinamento para iniciantes de todas as idades.</p>
+        <a href="#" class="facaparte__descricao-link">TREINE CONOSCO</a>
+      </div>
+      <img src="img/facaparte.jpg" alt="equipe do blue wings reunida" class="facaparte__imagem">
+    </section>
+    <h2 class="carrossel__titulo">ÚLTIMOS RESULTADOS</h2>
+    <section class="carrossel">
+      <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <p class="categoria-tabela">U21</p>
+            <div class="mandante">
+              <img src="img/logo-small.svg" alt="logo blue wings" class="logo-tabela">
+              <p class="pontos-tabela">84</p>
+            </div>
+            <div class="visitante">
+              <p class="time-tabela">Porto Pancas</p>
+              <p class="pontos-tabela">63</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="categoria-tabela">U14</p>
+            <div class="mandante">
+              <img src="img/logo-small.svg" alt="logo blue wings" class="logo-tabela">
+              <p class="pontos-tabela">63</p>
+            </div>
+            <div class="visitante">
+              <p class="time-tabela">Time Jundiaí</p>
+              <p class="pontos-tabela">50</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="categoria-tabela">U14</p>
+            <div class="mandante">
+              <img src="img/logo-small.svg" alt="logo blue wings" class="logo-tabela">
+              <p class="pontos-tabela">66</p>
+            </div>
+            <div class="visitante">
+              <p class="time-tabela">AABB</p>
+              <p class="pontos-tabela">21</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="categoria-tabela">Livre</p>
+            <div class="mandante">
+              <img src="img/logo-small.svg" alt="logo blue wings" class="logo-tabela">
+              <p class="pontos-tabela">66</p>
+            </div>
+            <div class="visitante">Porto Pancas</p>
+              <p class="pontos-tabela">44</p>
+            </div>
+          </div>
+         </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <section class="siga">
+      <div class="siga-textos">
+        <h2 class="siga__titulo">Fique por dentro das novidades!</h2>
+        <p class="siga__texto">Siga-nos nas redes sociais.</p>
+      </div>
+      <div class="siga__imagens">
+        <a href="#" class="siga__link"><img src="img/icone-instagram.svg" alt="icone instagram"></a>
+        <a href="#" class="siga__link"><img src="img/icone-facebook.svg" alt="icone facebook"></a>
+        <a href="#" class="siga__link"><img src="img/icone-tiktok.svg" alt="icone tiktok"></a>
+      </div>
+    </section>    
+  </main>
+
+  <footer>
+    <h2 class="rodape__titulo">#BleedBlue</h2>
+    <p class="rodape__texto">Desenvolvido por JP Nakayama || 2022</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      }
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.about {
+  background: var(--azul-degrade)
+}
+
+.about__descricao {
+  padding: 2em;
+  text-align: center
+}
+
+.about__descricao-titulo {
+  color: var(--amarelo);
+  font-weight: 700;
+  font-size: 18px
+}
+
+.about__descricao-texto {
+  color: var(--cinza);
+  padding-top: 1em;
+  font-weight: 500
+}
