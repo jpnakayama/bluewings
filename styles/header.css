@@ -69,6 +69,10 @@
   display: none
 }
 
+.logo-desktop {
+  display: none
+}
+
 @media screen and (min-width: 1440px) {
   header {
     display: flex;
@@ -104,7 +108,11 @@
     color: var(--azul)
   }
 
-  .paginas__link:hover {
-    font-weight: 700
+  .logo-desktop {
+    display: block
+  }
+
+  .logo {
+    display: none
   }
 }

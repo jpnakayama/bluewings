@@ -16,3 +16,12 @@ footer {
   color: var(--cinza)
 }
 
+@media screen and (min-width: 1440px) {
+  .rodape__titulo {
+    font-size: 24px
+  }
+
+  .rodape__texto {
+    font-size: 12px
+  }
+}
