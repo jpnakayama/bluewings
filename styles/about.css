@@ -18,3 +18,30 @@
   padding-top: 1em;
   font-weight: 500
 }
+
+.about__imagem {
+  display: none
+}
+
+@media screen and (min-width: 1440px) {
+  .about {
+    display: flex;
+    align-items: center;
+  }
+
+  .about__imagem {
+    display: block;
+    width: 40%;
+    padding: 2em 3em;
+  }
+
+  .about__descricao-texto {
+    font-size: 22px;
+    line-height: 35px;
+    margin-top: 1em
+  }
+  
+  .about__descricao-titulo {
+    font-size: 36px
+  }
+}

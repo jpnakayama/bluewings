@@ -2,7 +2,7 @@
   padding: 2em 3em;
   background: var(--fundo-cinza);
   text-align: center;
-  margin-top: 2em
+  margin-top: 2em;
 }
 
 .siga__titulo {
@@ -16,4 +16,24 @@
 
 .siga__link {
   padding: 0 0.5em
+}
+
+@media screen and (min-width: 1440px) {
+  .siga {
+    margin-top: 5em
+  }
+  
+  .siga__titulo {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .siga__texto {
+    margin: 2em 0 0.5em 0;
+    font-size: 25px
+  }
+
+  .siga__icone {
+    width: 3%
+  }
 }

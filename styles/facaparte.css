@@ -25,6 +25,10 @@
   padding-bottom: 2em
 }
 
+.facaparte__descricao-alternativa {
+  display: none
+}
+
 .facaparte__descricao-link {
   font-size: 14px;
   font-weight: 700;
@@ -36,6 +40,53 @@
 }
 
 .facaparte__imagem {
-  width: 50%;
+  width: 40%;
   border-radius: 10px
+}
+
+@media screen and (min-width: 1440px) {
+  .facaparte__titulo {
+    padding-top: 3em;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--azul)  
+  }
+  
+  .facaparte {
+    padding: 3em 10em
+  }
+
+  .facaparte__descricao {
+    width: 50vw;
+    text-align: center;
+    padding-right: 5em
+  }
+  
+  .facaparte__descricao-texto {
+    display: none
+  }
+  
+  .facaparte__descricao-alternativa {
+    display: block;
+    font-size: 25px;
+    line-height: 32px;
+    padding-bottom: 2em
+  }
+
+  .facaparte__descricao-link {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0.8em;
+    margin: 5em;
+    border-radius: 5px;
+    color: var(--azul);
+    background-color: var(--amarelo);
+    text-decoration: none
+  }
+
+  .facaparte__imagem {
+    width: 40%;
+    border-radius: 10px
+  }
 }
