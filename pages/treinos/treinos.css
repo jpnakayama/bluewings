@@ -1,0 +1,152 @@
+.treinos {
+  background: var(--azul-degrade);
+  padding: 2em 2em;
+  text-align: center
+}
+
+.treino__titulo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--amarelo);
+}
+
+.treino__texto {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--cinza);
+  margin: 1em 0;
+  width: 70%;
+  margin: 1em auto
+}
+
+.segundo-titulo {
+  margin-top: 2em
+}
+
+.treino__tabela {
+  font-size: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.tabela-categorias {
+  padding: 0.3em 1.5em;
+  color: var(--amarelo)
+}
+
+.tabela-conteudo {
+  padding: 0.5em 1.5em;
+  color: var(--cinza)
+}
+
+.localizacao__titulo {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding: 2em 0
+}
+
+.local-de-treino {
+  display: flex;
+  margin:0 2em 2em 2em;
+  align-items: center
+}
+
+.localizacao__endereco {
+  margin-left: 2em
+}
+
+.endereco__titulo {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.endereco__sub-titulo {
+  font-size: 12px;
+  font-weight: 300
+}
+
+.endereco__texto {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 1em
+}
+
+.mapa-desktop {
+  display: none
+}
+
+@media screen and (min-width: 1440px) {
+  .treinos {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  .segundo-titulo {
+    margin-top: 0
+  }
+
+  .treino__titulo {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--amarelo);
+  }
+  
+  .treino__texto {
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--cinza);
+    margin: 1em 0;
+    width: 70%;
+    margin: 1em auto
+  }
+
+  .treino__tabela {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .localizacao__titulo {
+    font-size: 36px;
+  }
+  
+  .localizacao {
+    display: flex;
+    align-items: flex-top;
+    justify-content: center
+  }
+  
+  .local-de-treino {
+    display: block;
+    margin:0 2em 2em 2em;
+    align-items: center;
+    justify-content: space-around
+  }
+  
+  .localizacao__mapa {
+    display: none
+  }
+
+  .mapa-desktop {
+    display: block;
+    margin-bottom: 1em
+  }
+
+  .endereco__titulo {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .endereco__sub-titulo {
+    font-size: 16px;
+    font-weight: 300
+  }
+  
+  .endereco__texto {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 1em
+  }
+}

@@ -1,0 +1,130 @@
+.temporada__banner {
+  background: var(--azul-degrade);
+  padding: 2em;
+  text-align: center
+}
+
+.temporada__titulo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--amarelo)
+}
+.temporada__texto {
+  margin-top: 1em;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--cinza)
+}
+
+.temporada__imagem {
+  display: none
+}
+
+.carrossel__titulo {
+  color: var(--amarelo);
+  background-color: var(--branco);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.swiper-wrapper {
+  padding: 0 1em 2em 1em 
+}
+
+.swiper-slide {
+  border: 2px solid var(--cinza);
+  border-radius: 5px;
+  padding: 0.3em;
+}
+
+.card__atleta {
+  border: none;
+  padding: 0.3em 1em
+}
+
+.card__foto {
+  width: 100%;
+  border-radius: 100px
+}
+
+.card-infos {
+  text-align: center;
+  padding-top: 0.5em
+}
+
+.card__nome {
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 0.5em
+}
+
+.card__numero, .card__posicao, .card__nascimento {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--cinza);
+  border-top: 1px solid var(--cinza);
+  padding: 0.5em
+}
+
+.swiper-pagination {
+  position: initial;
+  margin: 1.5em 0;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  display: none
+}
+
+@media screen and (min-width: 1440px) {
+  .temporada__titulo {
+    font-size: 36px
+  }
+
+  .temporada__container {
+    display: flex;
+    align-items: center;
+    margin: 0 3em
+  }
+
+  .temporada__texto {
+    font-size: 24px;
+    line-height: 32px;
+    padding-right: 3em
+  }
+
+  .temporada__imagem {
+    display: block;
+    width: 30%;
+    border-radius: 10px
+  }
+
+  .carrossel__titulo {
+    font-size: 36px
+  }
+
+  .card__foto {
+    width: 100%;
+    border-radius: 100px
+  }
+  
+  .card-infos {
+    text-align: center;
+    padding-top: 0.5em
+  }
+  
+  .card__nome {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 0.5em
+  }
+  
+  .card__numero, .card__posicao, .card__nascimento {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--cinza);
+    border-top: 1px solid var(--cinza);
+    padding: 0.5em
+  }
+}

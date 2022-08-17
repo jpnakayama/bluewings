@@ -1,5 +1,6 @@
 .historia {
-  background: var(--azul-degrade)
+  background: var(--azul-degrade);
+  padding: 1em 0
 }
 
 .historia__titulo {
@@ -21,14 +22,19 @@
 }
 
 .historia__imagem {
- width: 40%
+ width: 40%;
+ margin: 0 1em;
 }
 
 .historia__texto {
- font-size: 14px;
+ font-size: 12px;
  font-weight: 300;
  margin-left: 1em;
  color: var(--cinza)
+}
+
+.texto-fora {
+  margin: 0 4em
 }
 
 .momento-atual__titulo {
@@ -70,9 +76,20 @@
     font-size: 36px
   }
 
+  .historia__imagem {
+    display: block;
+    width: 40%
+  }
+
   .historia__texto {
     font-size: 24px;
-    line-height: 32px
+    line-height: 32px;
+    margin: 1em 2em
+  }
+
+  .texto-fora {
+    width: 80%;
+    margin: 1em auto
   }
 
   .conteudo {
