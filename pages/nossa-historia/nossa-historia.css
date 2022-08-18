@@ -1,13 +1,12 @@
 .historia {
   background: var(--azul-degrade);
-  padding: 1em 0
+  padding: 2em
 }
 
 .historia__titulo {
  text-align: center;
  font-size: 18px;
  font-weight: 700;
- padding: 1em;
 }
 
 .titulo__amarelo {
@@ -16,7 +15,7 @@
 
 .conteudo {
  display: flex;
- padding: 1em 2em;
+ margin: 2em 0;
  justify-content: space-between;
  align-items: center;
 }
@@ -29,16 +28,16 @@
 .historia__texto {
  font-size: 12px;
  font-weight: 300;
- margin-left: 1em;
  color: var(--cinza)
 }
 
 .texto-fora {
-  margin: 0 4em
+  margin: 0 1em;
+  text-align: center
 }
 
 .momento-atual__titulo {
- padding-top: 2em
+ padding: 1em 0
 }
 
 .momento-atual {

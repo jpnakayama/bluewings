@@ -55,13 +55,13 @@
 }
 
 .card__nome {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   padding-bottom: 0.5em
 }
 
 .card__numero, .card__posicao, .card__nascimento {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 300;
   color: var(--cinza);
   border-top: 1px solid var(--cinza);
